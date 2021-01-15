@@ -3,15 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>Corey's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Corey Devenport's Portfolio</h1>
+    <h1 class="title">Corey Devenport's Portfolio</h1>
 
-    <h2>About</h2>
+    <ul class="navbar">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#work-experience">Work Experience</a></li>
+      <li class="lastnav"><a href="#contact">Contact</a></li>
+    </ul>
+
+    <h2 id="about">About</h2>
     <p>Hi, I'm Corey Devenport!<br>
       I'm a Junior at BYU studying Computer Science</p>
 
-    <h2>Projects</h2>
+    <h2 id="projects">Projects</h2>
     <ul>
       <li>Twitter Clone (Android):<br>
          A simple Twitter Clone application with an AWS backend</li>
@@ -24,9 +32,9 @@
          SecureCRT (developed by VanDyke Software)</li>
     </ul>
 
-    <h2>Work Experience</h2>
-    <p><strong>VanDyke Software</strong></p>
-    <p>Software Engineer Intern</p>
+    <h2 id="work-experience">Work Experience</h2>
+    <p class="vandyke"><strong>VanDyke Software</strong></p>
+    <p class="jobdesc">Software Engineer Intern</p>
     <ul>
       <li>Embedded an open source text editor within a Terminal Emulator application using the MFC framework</li>
       <li>Fixed bugs and implemented features for the Terminal Emulator using the MFC/Qt frameworks</li>
@@ -34,16 +42,16 @@
       <li>Gained experience using version control software (TortoiseSVN)</li>
     </ul>
 
-    <p><strong>BYU CS Department</strong></p>
-    <p>Systems Administrator</p>
+    <p class="byu"><strong>BYU CS Department</strong></p>
+    <p class="jobdesc">Systems Administrator</p>
     <ul>
       <li>Administered user authentication and management through Red Hat using FreeIPA LDAP servers</li>
       <li>Gained experience performing admin tasks with Linux distros (Ubuntu and Red Hat)</li>
       <li>Created and maintained python scripts to automate common tasks</li>
     </ul>
 
-    <p><strong>MTC</strong></p>
-    <p>IT Service Desk Analyst</p>
+    <p class="mtc"><strong>MTC</strong></p>
+    <p class="jobdesc">IT Service Desk Analyst</p>
     <ul>
       <li>Helped resolve technical issues involving Microsoft Office products, networking, Samsung/Apple products,<br>
         and other software related issues for over 300 employees and 1000+ language learners</li>
@@ -51,10 +59,11 @@
       <li>Created scripts that automated ticket creation, making the process 10 times faster</li>
     </ul>
 
-    <hr>
-    <h2>Contact</h2>
+    <hr class="contact-hr">
+
+    <h2 id="contact">Contact</h2>
     <p>Email: corey@thedevenports.com</p>
-    <p><a href="https://www.linkedin.com/in/corey-devenport-822305184">LinkedIn</p>
-    <p><a href="https://github.com/YoungCree">GitHub</p>
+    <p class="weblink"><a href="https://www.linkedin.com/in/corey-devenport-822305184">LinkedIn</p>
+    <p class="weblink"><a href="https://github.com/YoungCree">GitHub</p>
   </body>
 </html>

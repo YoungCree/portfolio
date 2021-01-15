@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+}
+
+h2, h3, p, ul {
+  margin-left: 15px;
+}
+
+h2, h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+p, ul {
+  margin-bottom: 5px;
+}
+
+.title {
+  padding: 15px;
+  background-color: #4a8f7d
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5bb09a;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+ul.navbar li {
+  float: left;
+  font-size: 20px
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+li:last-of-type:not(.lastnav) {
+  margin-bottom: 10px;
+}
+
+li a:hover {
+  background-color: #4a8f7d;
+  color: white;
+}
+
+.active {
+  background-color: blue;
+}
+
+.contact-hr {
+  margin-top: 20px;
+}
+
+.jobdesc {
+  font-style: italic;
+}
+
+.weblink a:link {
+  color: #5bb09a;
+  text-decoration: none;
+}
+.weblink a:visited {
+  color: purple;
+}
+.weblink a:hover {
+  text-decoration: underline;
+  color: blue;
+}
