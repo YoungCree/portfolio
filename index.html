@@ -2,68 +2,82 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <title>Corey's Portfolio</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1 class="title">Corey Devenport's Portfolio</h1>
+    <div class="page">
+      <div class="title">Corey Devenport's Portfolio</div>
 
-    <ul class="navbar">
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#work-experience">Work Experience</a></li>
-      <li class="lastnav"><a href="#contact">Contact</a></li>
-    </ul>
+      <div class="header">
+        <div class="navbar">
+          <div class="nav-button"><a href="#about">About</a></div>
+          <div class="nav-button"><a href="#projects">Projects</a></div>
+          <div class="nav-button"><a href="#work-experience">Work Experience</a></div>
+          <div class="nav-button lastnav"><a href="#contact">Contact</a></div>
+        </div>
+      </div>
 
-    <h2 id="about">About</h2>
-    <p>Hi, I'm Corey Devenport!<br>
-      I'm a Junior at BYU studying Computer Science</p>
+      <div class="content">
+        <div class="about-div">
+          <h2 id="about">About</h2>
+          <p>Hi, I'm Corey Devenport!<br>
+            I'm a Junior at BYU studying Computer Science</p>
+        </div>
 
-    <h2 id="projects">Projects</h2>
-    <ul>
-      <li>Twitter Clone (Android):<br>
-         A simple Twitter Clone application with an AWS backend</li>
-      <li>Proxy Server (C):<br>
-         I created two different versions of this proxy server:
-         One that uses thread-pooling, and the other using I/O Multiplexing</li>
-      <li>Embedded Text Editor (C++, MFC, Qt):
-         Using the Open Source Scintilla I embedded a simple text editor
-         with syntax highlighting within the Terminal Emulator application
-         SecureCRT (developed by VanDyke Software)</li>
-    </ul>
+        <div class="projects-div">
+          <h2 id="projects">Projects</h2>
+          <ul>
+            <li>Twitter Clone (Android):<br>
+               A simple Twitter Clone application with an AWS backend</li>
+            <li>Proxy Server (C):<br>
+               I created two different versions of this proxy server:
+               One that uses thread-pooling, and the other using I/O Multiplexing</li>
+            <li>Embedded Text Editor (C++, MFC, Qt):
+               Using the Open Source Scintilla I embedded a simple text editor
+               with syntax highlighting within the Terminal Emulator application
+               SecureCRT (developed by VanDyke Software)</li>
+          </ul>
+        </div>
 
-    <h2 id="work-experience">Work Experience</h2>
-    <p class="vandyke"><strong>VanDyke Software</strong></p>
-    <p class="jobdesc">Software Engineer Intern</p>
-    <ul>
-      <li>Embedded an open source text editor within a Terminal Emulator application using the MFC framework</li>
-      <li>Fixed bugs and implemented features for the Terminal Emulator using the MFC/Qt frameworks</li>
-      <li>Created a simple socket application through MFC which uses POP to show emails from a specified client</li>
-      <li>Gained experience using version control software (TortoiseSVN)</li>
-    </ul>
+        <div class="work-experience-div">
+          <h2 id="work-experience">Work Experience</h2>
+          <p class="vandyke"><strong>VanDyke Software</strong></p>
+          <p class="jobdesc">Software Engineer Intern</p>
+          <ul>
+            <li>Embedded an open source text editor within a Terminal Emulator application using the MFC framework</li>
+            <li>Fixed bugs and implemented features for the Terminal Emulator using the MFC/Qt frameworks</li>
+            <li>Created a simple socket application through MFC which uses POP to show emails from a specified client</li>
+            <li>Gained experience using version control software (TortoiseSVN)</li>
+          </ul>
 
-    <p class="byu"><strong>BYU CS Department</strong></p>
-    <p class="jobdesc">Systems Administrator</p>
-    <ul>
-      <li>Administered user authentication and management through Red Hat using FreeIPA LDAP servers</li>
-      <li>Gained experience performing admin tasks with Linux distros (Ubuntu and Red Hat)</li>
-      <li>Created and maintained python scripts to automate common tasks</li>
-    </ul>
+          <p class="byu"><strong>BYU CS Department</strong></p>
+          <p class="jobdesc">Systems Administrator</p>
+          <ul>
+            <li>Administered user authentication and management through Red Hat using FreeIPA LDAP servers</li>
+            <li>Gained experience performing admin tasks with Linux distros (Ubuntu and Red Hat)</li>
+            <li>Created and maintained python scripts to automate common tasks</li>
+          </ul>
 
-    <p class="mtc"><strong>MTC</strong></p>
-    <p class="jobdesc">IT Service Desk Analyst</p>
-    <ul>
-      <li>Helped resolve technical issues involving Microsoft Office products, networking, Samsung/Apple products,<br>
-        and other software related issues for over 300 employees and 1000+ language learners</li>
-      <li>Learned fundamental troubleshooting and customer service skills in person and over the phone</li>
-      <li>Created scripts that automated ticket creation, making the process 10 times faster</li>
-    </ul>
+          <p class="mtc"><strong>MTC</strong></p>
+          <p class="jobdesc">IT Service Desk Analyst</p>
+          <ul>
+            <li>Helped resolve technical issues involving Microsoft Office products, networking, Samsung/Apple products,<br>
+              and other software related issues for over 300 employees and 1000+ language learners</li>
+            <li>Learned fundamental troubleshooting and customer service skills in person and over the phone</li>
+            <li>Created scripts that automated ticket creation, making the process 10 times faster</li>
+          </ul>
+        </div>
+      </div>
 
-    <hr class="contact-hr">
-
-    <h2 id="contact">Contact</h2>
-    <p>Email: corey@thedevenports.com</p>
-    <p class="weblink"><a href="https://www.linkedin.com/in/corey-devenport-822305184">LinkedIn</p>
-    <p class="weblink"><a href="https://github.com/YoungCree">GitHub</p>
+      <div class="contact-div">
+        <h2 id="contact">Contact</h2>
+        <p>Email: corey@thedevenports.com</p>
+        <p class="weblink"><a href="https://www.linkedin.com/in/corey-devenport-822305184">LinkedIn</p>
+        <p class="weblink"><a href="https://github.com/YoungCree">GitHub</p>
+      </div>
+    </div>
   </body>
 </html>
